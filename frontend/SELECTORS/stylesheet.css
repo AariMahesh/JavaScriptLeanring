@@ -1,0 +1,41 @@
+/* //universal selector
+* {
+  color: brown;
+}
+/* //tag selector */
+/* p {
+  color: rgb(23, 20, 17);
+}
+*/
+/* id selector */
+/* #p1 {
+  color: aliceblue;
+}
+class selector
+.p2 {
+  color: aqua;
+} */
+/* group selector */
+/* #p1,
+#p2 {
+  color: black;
+} */
+/* child selector */
+ul > li {
+  list-style-type: disc;
+}
+/* group selector */
+/* #p1,
+.p2 {
+  color: aqua;
+} */
+/* attributr selector */
+[type="text"] {
+  background-color: red;
+}
+/* psuedoo selectors/psuedo class allow you to style elements based on various conditions such as user interaction
+or doc structure */
+a:hover {
+  color: red;
+  opacity: 0.5;
+}

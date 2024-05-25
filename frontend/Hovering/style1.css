@@ -1,0 +1,12 @@
+.ss{
+    width: 100px;
+  height: 100px;
+  border-radius:10px;
+  border-color: blue;
+
+}
+.ss:hover{
+    color:white;
+    opacity: 0.5;
+    background-color: blue;
+}

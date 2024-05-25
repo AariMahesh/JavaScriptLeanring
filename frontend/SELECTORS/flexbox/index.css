@@ -1,0 +1,54 @@
+#d1 {
+  background-color: rgb(82, 78, 78);
+  width: 150px;
+  height: 100px;
+  margin: 30px;
+  im
+}
+#d2 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+#d3 {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+#d4 {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+#d5 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+#d6 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+  }
+  #d7 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+  }
+  #d8 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+  }
+  .maindiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+  }

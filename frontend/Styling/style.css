@@ -1,0 +1,12 @@
+#image{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    border: 50px;
+    border: red;
+    margin: 20px;
+}
+h1{
+    font-size: larger;
+}
