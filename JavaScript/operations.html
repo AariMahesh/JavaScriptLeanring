@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label>a </label><input type="text" id="inp1" /> <br />
+      <label>b </label><input type="text" id="inp2" /><br />
+      <input type="submit" onclick="add()" / value="Add"> <input type="submit"
+      onclick="sub()" / value="sub">
+    </form>
+    <script>
+      function add() {
+        let n1 = Number(document.getElementById("inp1").value);
+        let n2 = Number(document.getElementById("inp2").value);
+        console.log(n1 + n2);
+        alert(n1 + n2);
+      }
+      function sub() {
+        let n1 = Number(document.getElementById("inp1").value);
+        let n2 = Number(document.getElementById("inp2").value);
+        console.log(n1 + n2);
+        alert(n1 - n2);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label>Name: </label><input type="text" id="name" /><br />
+      <label>Password: </label><input type="password" id="pass" /><br />
+      <input type="submit" onclick="return validate1()" ; value="submit" />
+      <p id="na"></p>
+      <p id="pa"></p>
+    </form>
+    <script>
+      function validate1() {
+        alert("welcome");
+        let n = document.getElementById("name").value;
+        let p = document.getElementById("pass").value;
+        //console.log(n);
+        //console.log(p);
+        document.getElementById("na").innerHTML = n;
+        document.getElementById("pa").innerHTML = p;
+        alert(n);
+        alert(p);
+        if (n.length > 6 && p.length > 6) {
+          alert("valid..sucess");
+          false;
+        } else {
+          alert("Invalid...try again");
+        }
+        alert(n);
+        alert(p);
+        return false;
+      }
+    </script>
+  </body>
+</html>

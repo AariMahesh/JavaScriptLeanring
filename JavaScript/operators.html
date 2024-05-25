@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let Student = {
+        name: "xyz",
+        age: 40,
+        marks: 30,
+        study() {
+          console.log("studying");
+        },
+      };
+      console.log(Student.name);
+      console.log(Student.age);
+      console.log(Student.marks);
+      Student.study();
+      let Employee = {
+        name: "mahesh",
+        id: 1,
+        gender: "male",
+        c_n: 6309899404,
+        work() {
+          console.log("working");
+        },
+        sleep() {
+          console.log("Sleeping");
+        },
+      };
+      console.log(Employee.id);
+      Employee.sleep();
+      let Order = {
+        oid: 1,
+        oname: "pant",
+        onumber: 123,
+        odet: "delevered ",
+        purchase() {
+          console.log("purchased");
+        },
+        return() {
+          console.log("returnes");
+        },
+      };
+      console.log(Order.oid);
+      Order.return();
+    </script>
+  </body>
+</html>
